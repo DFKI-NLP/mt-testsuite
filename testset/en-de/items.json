@@ -293,8 +293,7 @@
       "phenomenon": "Gapping", 
       "positive_regex": "Ich habe Anna Manny vorgestellt und Tom Sue\\.", 
       "positive_tokens": [
-        "Ich stellte Anna Manny vor und Tom Sue.", 
-        "Ich stellte Anna Manny vor, und Tom Sue."
+        "Ich stellte Anna Manny vor und Tom Sue."
       ], 
       "source_sentence": "I introduced Anna to Manny, and Tom to Sue. "
     }, 
@@ -461,7 +460,7 @@
       "positive_tokens": [
         "Jackie mag den Arzt, aber die Krankenschwester mag sie nicht."
       ], 
-      "source_sentence": "Jackie likes the doctor but she doesn't the nurse."
+      "source_sentence": "Jackie likes the doctor, but she doesn't the nurse."
     }, 
     {
       "category": "Coordination & ellipsis", 
@@ -504,7 +503,7 @@
       "positive_tokens": [
         "Ich habe ein Buch \u00fcber Linguistik geschrieben, und Sie haben \u00fcber Wirtschaft geschrieben."
       ], 
-      "source_sentence": "I was writing a book about linguistics and you were about economics."
+      "source_sentence": "I was writing a book about linguistics, and you were about economics."
     }, 
     {
       "category": "Coordination & ellipsis", 
@@ -616,11 +615,9 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Right node raising", 
-      "positive_regex": "Bill las( ein Buch)? und Sally schrieb ein Buch.", 
-      "positive_tokens": [
-        "Bill hat gelesen und Sally hat ein Buch geschrieben."
-      ], 
-      "source_sentence": "Bill read and Sally wrote a book."
+      "positive_regex": "", 
+      "positive_tokens": [], 
+      "source_sentence": "Most of the time she carefully reads and he merely skims the report."
     }, 
     {
       "category": "Coordination & ellipsis", 
@@ -672,27 +669,22 @@
         "Phoebe hat etwas gesa\u00df, aber sie wei\u00df nicht was."
       ], 
       "phenomenon": "Sluicing", 
-      "positive_regex": "Phoebe (a\u00df etwas|hat etwas gegessen), aber sie wei\u00df nicht,? was.", 
+      "positive_regex": "Phoebe (a\u00df etwas|hat etwas gegessen), aber sie wusste nicht,? was.", 
       "positive_tokens": [], 
-      "source_sentence": "Phoebe ate something, but she doesn't know what."
+      "source_sentence": "Phoebe ate something, but she didn't know what."
     }, 
     {
       "category": "Coordination & ellipsis", 
       "id": "00010002", 
       "langpair": "ende", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "Obwohl ich wei\u00df nicht, warum haben die Bilder verschoben."
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Sluicing", 
-      "positive_regex": "Obwohl ich nicht wei\u00df,? warum, wurden die Bilder (bewegt|verschoben).", 
+      "positive_regex": "Die Bilder wurden (bewegt|verschoben), aber ich wei\u00df nicht,? warum.", 
       "positive_tokens": [
-        "Obwohl ich nicht wei\u00df, warum, sind die Bilder verschoben worden.", 
-        "Obgleich ich nicht warum wei\u00df, sind die Abbildungen verschoben worden.", 
-        "Obwohl ich nicht wei\u00df warum, sind die Bilder verschoben worden.", 
-        "Obwohl ich nicht wei\u00df, warum, sind die Bilder bewegt worden."
+        "Obwohl ich nicht wei\u00df, warum, sind die "
       ], 
-      "source_sentence": "Although I don't know why, the pictures have been moved."
+      "source_sentence": "The pictures have been moved, but I don't know why."
     }, 
     {
       "category": "Coordination & ellipsis", 
@@ -714,9 +706,9 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Sluicing", 
-      "positive_regex": "Jemand hat die Suppe (auf)?gegessen und ich wei\u00df nicht,? wer.", 
+      "positive_regex": "Jemand hat die Suppe (auf)?gegessen, aber ich wei\u00df nicht,? wer.", 
       "positive_tokens": [], 
-      "source_sentence": "Someone has eaten the soup and I don't know who."
+      "source_sentence": "Someone has eaten the soup, but I don't know who."
     }, 
     {
       "category": "Coordination & ellipsis", 
@@ -774,17 +766,11 @@
       "id": "00010008", 
       "langpair": "ende", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "Wenn Sam w\u00fcrde, w\u00fcrde Sally wissen, wo.", 
-        "Wenn Sam ging, w\u00fcrde Sally wissen, wohin.", 
-        "Wenn Sam gehen w\u00fcrde, w\u00fcrde Sally wissen, wo.", 
-        "Wenn Sam hingehen w\u00fcrde, w\u00fcrde Sally wissen wo.", 
-        "Wenn Sam gehen w\u00fcrde, w\u00fcrde Sally wissen wo."
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Sluicing", 
-      "positive_regex": "Wenn Sam gehen w\u00fcrde, (w\u00fcrde Sally wissen|w\u00fcsste Sally),? wohin.", 
+      "positive_regex": "", 
       "positive_tokens": [], 
-      "source_sentence": "If Sam was going, Sally would know where."
+      "source_sentence": "Sam did cook last night, but Sara wasn't sure what."
     }, 
     {
       "category": "Coordination & ellipsis", 
@@ -1058,14 +1044,11 @@
       "id": "00269006", 
       "langpair": "ende", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "Der Mann, der wollte den Lachs bestellen hat.", 
-        "Der Mann, der den Lachs bestellen wollte, schon."
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "VP-ellipsis", 
-      "positive_regex": "Der Mann, der den Lachs bestellen wollte, tat es.", 
+      "positive_regex": "", 
       "positive_tokens": [], 
-      "source_sentence": "The man who wanted to order the salmon did."
+      "source_sentence": "Why do guys say they will call but never do?"
     }, 
     {
       "category": "Coordination & ellipsis", 
@@ -1152,12 +1135,12 @@
       "category": "False friends", 
       "id": "00262003", 
       "langpair": "ende", 
-      "negative_regex": "Geni(e|us)", 
+      "negative_regex": "(eventuell)", 
       "negative_tokens": [], 
       "phenomenon": "False friends", 
-      "positive_regex": "(Dschinn|Flaschengeist|Geist)", 
+      "positive_regex": "(schlie\u00dflich|letztendlich|eines Tages)", 
       "positive_tokens": [], 
-      "source_sentence": "This movie deals with a little boy and his genie. "
+      "source_sentence": "She wants to go to university eventually."
     }, 
     {
       "category": "False friends", 
@@ -1376,7 +1359,7 @@
       "phenomenon": "Focus particle", 
       "positive_regex": "(nur|lediglich|blo\u00df) (Joh?n|Johannes)", 
       "positive_tokens": [], 
-      "source_sentence": "If only John sends me flowers I will be disappointed."
+      "source_sentence": "If only John sends me flowers, I will be disappointed."
     }, 
     {
       "category": "Function word", 
@@ -1946,7 +1929,7 @@
       "phenomenon": "Multiple connectors", 
       "positive_regex": "Entweder.*oder", 
       "positive_tokens": [], 
-      "source_sentence": "Either you start helping or you are camping by yourself."
+      "source_sentence": "Either you start helping, or you are camping by yourself."
     }, 
     {
       "category": "Long distance dependency & interrogative", 
@@ -2353,7 +2336,7 @@
       "phenomenon": "Preposition stranding", 
       "positive_regex": "", 
       "positive_tokens": [], 
-      "source_sentence": "The desk looks like it has been worked on."
+      "source_sentence": "The desk looks like it has been worked at."
     }, 
     {
       "category": "Long distance dependency & interrogative", 
@@ -3067,7 +3050,7 @@
       "phenomenon": "Compound", 
       "positive_regex": "erfundene", 
       "positive_tokens": [], 
-      "source_sentence": "Did it really happen or was it a made-up story?"
+      "source_sentence": "Did it really happen, or was it a made-up story?"
     }, 
     {
       "category": "MWE", 
@@ -3093,7 +3076,8 @@
       "positive_tokens": [
         "Es ist ein in New York ans\u00e4ssiges Unternehmen.", 
         "IT ist ein New Yorker Unternehmen.", 
-        "Es handelt sich um ein in New York ans\u00e4ssiges Unternehmen."
+        "Es handelt sich um ein in New York ans\u00e4ssiges Unternehmen.", 
+        "Es ist ein New Yorker Unternehmen."
       ], 
       "source_sentence": "It is a New York-based company."
     }, 
@@ -3125,7 +3109,7 @@
         "Diese Werbung f\u00fcr das neue Auto ist ein Hingucker.", 
         "Diese Werbung f\u00fcr das neue Auto sticht ins Auge."
       ], 
-      "source_sentence": "This advertisements for the new car are eye-catching."
+      "source_sentence": "These advertisements for the new car are eye-catching."
     }, 
     {
       "category": "MWE", 
@@ -3157,29 +3141,22 @@
       "id": "00275002", 
       "langpair": "ende", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "Er war blau."
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Idiom", 
       "positive_regex": "", 
       "positive_tokens": [], 
-      "source_sentence": "He was blue."
+      "source_sentence": "He has bigger fish to fry in New York. "
     }, 
     {
       "category": "MWE", 
       "id": "00275003", 
       "langpair": "ende", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "Er f\u00fchlte sich blau.", 
-        "Er f\u00fchlte sich blau an."
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Idiom", 
       "positive_regex": "", 
-      "positive_tokens": [
-        "Er war traurig."
-      ], 
-      "source_sentence": "He was feeling blue."
+      "positive_tokens": [], 
+      "source_sentence": "He goes out only once in a blue moon."
     }, 
     {
       "category": "MWE", 
@@ -3360,7 +3337,7 @@
       "phenomenon": "Nominal MWE", 
       "positive_regex": "(Seifenst\u00fcck|St\u00fcck(e|n)? Seife)", 
       "positive_tokens": [], 
-      "source_sentence": "I'd like to buy two bars of soap please."
+      "source_sentence": "I'd like to buy two bars of soap, please."
     }, 
     {
       "category": "MWE", 
@@ -3400,17 +3377,11 @@
       "id": "00012010", 
       "langpair": "ende", 
       "negative_regex": "(Herde) von Schafen", 
-      "negative_tokens": [
-        "Das H\u00f6ren von Schafen ist entkommen.", 
-        "Das Herz der Schafe ist entkommen.", 
-        "Wer von den Schafen geh\u00f6rt hat, ist entkommen.", 
-        "Das Geh\u00f6rte von Schafen ist entflohen.", 
-        "Das Geh\u00f6rte von Schafen ist entkommen."
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Nominal MWE", 
       "positive_regex": "Herde Schafe", 
       "positive_tokens": [], 
-      "source_sentence": "The herd of sheep has escaped. "
+      "source_sentence": "The flock of sheep has escaped. "
     }, 
     {
       "category": "MWE", 
@@ -3656,20 +3627,11 @@
       "id": "00680008", 
       "langpair": "ende", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "Der Motor schnitt aus und der Wagen blieb stehen.", 
-        "Der Motor wurde ausgebrochen und das Auto blieb stehen.", 
-        "Der Motor schnitt aus und das Auto stoppte.", 
-        "Der Motor schnitt aus und das Auto blieb stehen.", 
-        "Der Motor sprang aus und der Wagen blieb stehen.", 
-        "Der Motor fiel aus und das Auto blieb stehen."
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Verbal MWE", 
       "positive_regex": "", 
-      "positive_tokens": [
-        "Der Motor ging aus und das Auto blieb stehen."
-      ], 
-      "source_sentence": "The engine cut out and the car stopped."
+      "positive_tokens": [], 
+      "source_sentence": "You should brush up on your French before you go to France."
     }, 
     {
       "category": "MWE", 
@@ -3929,62 +3891,42 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Domainspecific term", 
-      "positive_regex": "(Schaltfl\u00e4che )?[\"\u201e]Datei[\"\u201c]", 
-      "positive_tokens": [
-        "Klicken Sie auf die Schaltfl\u00e4che \u201eDatei.\""
-      ], 
-      "source_sentence": "Click the \"File\" button."
+      "positive_regex": "", 
+      "positive_tokens": [], 
+      "source_sentence": "In South Korea, the toughest social distancing rules remained in place, requiring churches to accept a limited number of worshippers."
     }, 
     {
       "category": "Named entitiy & terminology", 
       "id": "00044002", 
       "langpair": "ende", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "Hier treten Humane Papillomaviren auch bei jungen Menschen auf.", 
-        "Hier kommen humane Papillomviren auch bei jungen Menschen vor."
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Domainspecific term", 
-      "positive_regex": "humane Papillomavirus|humane Papillomaviren", 
-      "positive_tokens": [
-        "Hier treten humane Papillomviren auch bei jungen Menschen auf.", 
-        "Hier kommen auch humane Papillomviren bei jungen Menschen vor.", 
-        "Humane Papillomviren treten hier auch bei jungen Menschen auf.", 
-        "Hier treten Humane Papillomviren auch bei jungen Menschen auf.", 
-        "Humane Papillomavirus kommen auch bei jungen Menschen vor."
-      ], 
-      "source_sentence": "Here, human papillomavirus also occur among young people."
+      "positive_regex": "(Auffrischungsimpfungen)", 
+      "positive_tokens": [], 
+      "source_sentence": "The Washington Post will require booster shots for every staff member when it brings employees back to the office."
     }, 
     {
       "category": "Named entitiy & terminology", 
       "id": "00044003", 
       "langpair": "ende", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "Er muss zuerst den Motor installieren."
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Domainspecific term", 
       "positive_regex": "", 
-      "positive_tokens": [
-        "Er muss erst den Motor einbauen.", 
-        "Er muss zuerst den Motor einbauen."
-      ], 
-      "source_sentence": "He needs to install the engine first."
+      "positive_tokens": [], 
+      "source_sentence": "Last year's party turned into a super-spreader event, with 848 people contracting the virus."
     }, 
     {
       "category": "Named entitiy & terminology", 
       "id": "00044004", 
       "langpair": "ende", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "Einige Werkzeuge sind von meinem Bildschirm verschwunden."
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Domainspecific term", 
       "positive_regex": "", 
-      "positive_tokens": [
-        "Einige Tools sind von meinem Bildschirm verschwunden."
-      ], 
-      "source_sentence": "Some tools have disappeared from my screen."
+      "positive_tokens": [], 
+      "source_sentence": "He also predicted substantial community spread of the omicron variant during holiday gatherings."
     }, 
     {
       "category": "Named entitiy & terminology", 
@@ -3994,28 +3936,19 @@
       "negative_tokens": [], 
       "phenomenon": "Domainspecific term", 
       "positive_regex": "", 
-      "positive_tokens": [
-        "Einige Tools sind verschwunden.", 
-        "Einige Werkzeuge sind verschwunden."
-      ], 
-      "source_sentence": "Some tools have disappeared."
+      "positive_tokens": [], 
+      "source_sentence": "It was first isolated from three people connected to the cluster of acute respiratory illness cases in Wuhan."
     }, 
     {
       "category": "Named entitiy & terminology", 
       "id": "00044006", 
       "langpair": "ende", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "Wie kann ich ein Gespr\u00e4ch retten?"
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Domainspecific term", 
-      "positive_regex": "(Gespr\u00e4ch|Konversation) speichern", 
-      "positive_tokens": [
-        "Wie kann ich eine Konversation speichern?", 
-        "Wie kann ich ein Gespr\u00e4ch speichern?", 
-        "Wie kann ich eine Unterhaltung speichern?"
-      ], 
-      "source_sentence": "How can I save a conversation?"
+      "positive_regex": "", 
+      "positive_tokens": [], 
+      "source_sentence": "Does your\u00a0website\u00a0have a\u00a0conversion rate\u00a0problem?"
     }, 
     {
       "category": "Named entitiy & terminology", 
@@ -4025,64 +3958,41 @@
       "negative_tokens": [], 
       "phenomenon": "Domainspecific term", 
       "positive_regex": "", 
-      "positive_tokens": [
-        "Das einzige verf\u00fcgbare 4x4-Getriebe war ein 4-Gang-Schaltgetriebe bis 1982.", 
-        "Das einzige verf\u00fcgbare 4x4-Getriebe war bis 1982 ein 4-Gang-Schaltgetriebe.", 
-        "Das einzige 4x4-Getriebe, das bis 1982 verf\u00fcgbar war, war ein 4-Gang-Schaltgetriebe.", 
-        "Das einzige 4x4-Getriebe, das verf\u00fcgbar war, war ein 4-Gang-Schaltgetriebe bis 1982."
-      ], 
-      "source_sentence": "The only 4x4 transmission available was a 4 speed manual until 1982."
+      "positive_tokens": [], 
+      "source_sentence": "Like a lot of startups, we do a lot of split testing."
     }, 
     {
       "category": "Named entitiy & terminology", 
       "id": "00044008", 
       "langpair": "ende", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "Wie kann ich eine Datei in Notepad + + speichern"
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Domainspecific term", 
       "positive_regex": "", 
-      "positive_tokens": [
-        "Wie kann ich eine Datei in Notepad ++ speichern?", 
-        "Wie kann ich eine Datei in Notepad++ speichern?", 
-        "Wie kann ich eine Datei in Notepad + + speichern?", 
-        "Wie kann ich eine Datei in Notepad++speichern?"
-      ], 
-      "source_sentence": "How can I save a file in Notepad++?"
+      "positive_tokens": [], 
+      "source_sentence": "It's far easier to change a\u00a0wireframe\u00a0than to change a fully-coded site."
     }, 
     {
       "category": "Named entitiy & terminology", 
       "id": "00044009", 
       "langpair": "ende", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "Wie kann ich ein Transkript dieses Anrufs speichern"
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Domainspecific term", 
       "positive_regex": "", 
-      "positive_tokens": [
-        "Wie kann ich ein Transkript dieses Aufrufs speichern?", 
-        "Wie kann ich ein Transkript dieses Anrufs speichern?", 
-        "Wie kann ich eine Abschrift dieses Anrufs speichern?", 
-        "Wie kann ich eine Mitschrift dieses Gespr\u00e4chs speichern?"
-      ], 
-      "source_sentence": "How can I save a transcript of this call?"
+      "positive_tokens": [], 
+      "source_sentence": "Customer journey mapping can point out individuals who are on the path to churn."
     }, 
     {
       "category": "Named entitiy & terminology", 
       "id": "00044010", 
       "langpair": "ende", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "Wie \u00e4ndere ich die Ausrichtung der Seite"
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Domainspecific term", 
-      "positive_regex": "Seitenausrichtung", 
-      "positive_tokens": [
-        "Wie \u00e4ndere ich die Ausrichtung der Seite?"
-      ], 
-      "source_sentence": "How do I alter the page orientation?"
+      "positive_regex": "", 
+      "positive_tokens": [], 
+      "source_sentence": "Flat design has a number of benefits determining its popularity and diversity in digital design."
     }, 
     {
       "category": "Named entitiy & terminology", 
@@ -4171,7 +4081,7 @@
       "phenomenon": "Location", 
       "positive_regex": "Speyer", 
       "positive_tokens": [], 
-      "source_sentence": "In Spires tourists can find the largest Romanesque church."
+      "source_sentence": "In Spires, tourists can find the largest Romanesque church."
     }, 
     {
       "category": "Named entitiy & terminology", 
@@ -4552,14 +4462,11 @@
       "id": "00200003", 
       "langpair": "ende", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "Kein Schlafwandler.", 
-        "Kein Schlafengehen."
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Negation", 
-      "positive_regex": "Kein Schlafwandeln", 
+      "positive_regex": "", 
       "positive_tokens": [], 
-      "source_sentence": "No sleepwalking."
+      "source_sentence": "No animals were harmed in the making of the movie."
     }, 
     {
       "category": "Negation", 
@@ -4579,23 +4486,11 @@
       "id": "00200006", 
       "langpair": "ende", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "Wenn wir auf der Basis konzentrieren, nehmen wir nicht", 
-        "Kein Fu\u00df auf dem Rasen!", 
-        "Kein Gehen auf dem Rasen!", 
-        "Kein Laufen im Gras!", 
-        "Keine Spazierg\u00e4nge auf dem Rasen!", 
-        "Kein Spaziergang auf dem Rasen!"
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Negation", 
       "positive_regex": "", 
-      "positive_tokens": [
-        "Nicht auf dem Gras laufen!", 
-        "Kein Laufen auf dem Gras!", 
-        "Kein Gehen auf dem Gras!", 
-        "Kein Spazierengehen auf dem Rasen!"
-      ], 
-      "source_sentence": "No walking on the grass!"
+      "positive_tokens": [], 
+      "source_sentence": "He did nothing to help."
     }, 
     {
       "category": "Negation", 
@@ -4686,7 +4581,7 @@
       "positive_tokens": [
         "Susan lie\u00df die Platte fallen und sie zerschmetterte laut."
       ], 
-      "source_sentence": "Susan dropped the plate and it shattered loudly."
+      "source_sentence": "Susan dropped the plate, and it shattered loudly."
     }, 
     {
       "category": "Non-verbal agreement", 
@@ -4708,7 +4603,7 @@
       "phenomenon": "Coreference", 
       "positive_regex": "Der Teppich.*ihn", 
       "positive_tokens": [], 
-      "source_sentence": "The carpet is new, I bought it yesterday. "
+      "source_sentence": "The carpet is new; I bought it yesterday. "
     }, 
     {
       "category": "Non-verbal agreement", 
@@ -4775,7 +4670,7 @@
         "Das sind meine Lieblingshosen, die ich schon lange habe.", 
         "Das sind meine Lieblingshosen, die habe ich schon lange."
       ], 
-      "source_sentence": "Those are my favorite pants, I have had them for a long time. "
+      "source_sentence": "Those are my favorite pants; I have had them for a long time. "
     }, 
     {
       "category": "Non-verbal agreement", 
@@ -4786,7 +4681,7 @@
       "phenomenon": "Coreference", 
       "positive_regex": "meine Schl\u00fcssel.*sie", 
       "positive_tokens": [], 
-      "source_sentence": "I forgot my keys, they are at home."
+      "source_sentence": "I forgot my keys; they are at home."
     }, 
     {
       "category": "Non-verbal agreement", 
@@ -4797,7 +4692,7 @@
       "phenomenon": "Coreference", 
       "positive_regex": "(Lieblingsband|Band).*ihre (Songs|Lieder)", 
       "positive_tokens": [], 
-      "source_sentence": "This is my favorite band, I like all of their songs. "
+      "source_sentence": "This is my favorite band; I like all of their songs. "
     }, 
     {
       "category": "Non-verbal agreement", 
@@ -4834,7 +4729,7 @@
       "phenomenon": "Coreference", 
       "positive_regex": "die K\u00fcche.*sie", 
       "positive_tokens": [], 
-      "source_sentence": "Have you cleaned the kitchen or is it still dirty?"
+      "source_sentence": "Have you cleaned the kitchen, or is it still dirty?"
     }, 
     {
       "category": "Non-verbal agreement", 
@@ -5759,29 +5654,18 @@
         "Wenn er Schauspieler werden will, dann, weil er ber\u00fchmt werden will.", 
         "Wenn er Schauspieler werden will, dann deshalb, weil er ber\u00fchmt werden will."
       ], 
-      "source_sentence": "If he wants to be an actor it's because he wants to be famous."
+      "source_sentence": "If he wants to be an actor, it's because he wants to be famous."
     }, 
     {
       "category": "Subordination", 
       "id": "00772010", 
       "langpair": "ende", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "Der Grund, warum ich gekommen bin ist meine Zukunft mit Ihnen zu besprechen.", 
-        "Der Grund, warum ich gekommen bin, ist meine Zukunft mit dir zu besprechen."
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Cleft sentence", 
       "positive_regex": "", 
-      "positive_tokens": [
-        "Ich bin gekommen, um mit Ihnen \u00fcber meine Zukunft zu sprechen.", 
-        "Der Grund, warum ich gekommen bin, ist, meine Zukunft mit Ihnen zu besprechen.", 
-        "Der Grund, warum ich gekommen bin, ist, um mit Ihnen \u00fcber meine Zukunft zu sprechen.", 
-        "Der Grund, warum ich gekommen bin, ist, dass ich mit Ihnen \u00fcber meine Zukunft sprechen m\u00f6chte.", 
-        "Der Grund, warum ich gekommen bin, ist, mit Ihnen \u00fcber meine Zukunft zu sprechen.", 
-        "Der Grund, warum ich gekommen bin, ist, um meine Zukunft mit Ihnen zu besprechen.", 
-        "Der Grund, warum ich gekommen bin, ist, meine Zukunft mit euch zu besprechen."
-      ], 
-      "source_sentence": "The reason why I've come is to discuss my future with you. "
+      "positive_tokens": [], 
+      "source_sentence": "It was my\u00a0husband who\u00a0you spoke to on the phone.\u00a0"
     }, 
     {
       "category": "Subordination", 
@@ -6620,7 +6504,7 @@
         "Die Fotos, die zu Hause aufgenommen wurden, konnten nicht gefunden werden.", 
         "Die zu Hause aufgenommenen Fotos konnten nicht gefunden werden."
       ], 
-      "source_sentence": "The photos which had been taken at home couldn't been found."
+      "source_sentence": "The photos that had been taken at home couldn't be found."
     }, 
     {
       "category": "Subordination", 
@@ -7241,7 +7125,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00017004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Ich w\u00fcrde John den Ball vorbei sein.", 
         "Ich w\u00fcrde John den Ball f\u00fchren."
@@ -7343,7 +7227,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00018004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Sie w\u00fcrden John den Ball vorbei sein.", 
         "Du w\u00fcrdest John den Ball \u00fcberholen."
@@ -7441,7 +7325,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00019004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Sie w\u00fcrde vorbei John den Ball.", 
         "Sie w\u00fcrde John den Ball \u00fcberholen."
@@ -7533,7 +7417,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00020004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Wir w\u00fcrden uns vorbei John den Ball.", 
         "Wir w\u00fcrden John den Ball f\u00fchren.", 
@@ -7624,7 +7508,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00021004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Sie w\u00fcrden vorbei John den Ball.", 
         "Sie w\u00fcrden John den Ball passieren."
@@ -7698,7 +7582,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Ich w\u00fcrde (Sam einen Brief|einen Brief an Sam) (schicken|senden|schreiben)", 
       "positive_tokens": [
         "Ich w\u00fcrde Sam einen Brief schicken.", 
         "Ich w\u00fcrde Sam einen Brief schreiben."
@@ -7709,12 +7593,12 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00029004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Ich w\u00fcrde John den Ball f\u00fchren."
       ], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Ich w\u00fcrde (Joh?n den Ball|den Ball Joh?n) ((\u00fcber|weiter)?geben|zuspielen)", 
       "positive_tokens": [
         "Ich w\u00fcrde John den Ball \u00fcbergeben.", 
         "Ich w\u00fcrde John den Ball geben.", 
@@ -7730,7 +7614,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Ich w\u00fcrde (Lisa mein Auto|mein Auto Lisa) zeigen", 
       "positive_tokens": [
         "Ich w\u00fcrde Lisa mein Auto zeigen."
       ], 
@@ -7745,7 +7629,7 @@
         "Ich bringe Sara eine DVD mit."
       ], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Ich w\u00fcrde (Sarah? eine DVD|eine DVD zu Sarah?) bringen\\.", 
       "positive_tokens": [
         "Ich w\u00fcrde Sara eine DVD bringen.", 
         "Ich w\u00fcrde Sara eine DVD mitbringen."
@@ -7759,7 +7643,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "Du w\u00fcrdest Mar(ia|y) das Buch geben|Du w\u00fcrdest das Buch Mar(ia|y) geben", 
+      "positive_regex": "(Du w\u00fcrdest|Sie w\u00fcrden|Ihr w\u00fcrdet) (Mar(y|ia) das Buch geben|das Buch Mar(y|ia) geben)", 
       "positive_tokens": [
         "Sie w\u00fcrden Mary das Buch geben."
       ], 
@@ -7772,7 +7656,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "(Du w\u00fcrdest|Sie w\u00fcrden|Ihr w\u00fcrdet) (Tim einen Kuchen backen|einen Kuchen f\u00fcr Tim backen)", 
       "positive_tokens": [
         "Du w\u00fcrdest Tim einen Kuchen backen.", 
         "Sie w\u00fcrden Tim einen Kuchen backen.", 
@@ -7787,7 +7671,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "(Du w\u00fcrdest|Sie w\u00fcrden|Ihr w\u00fcrdet) (Sam einen Brief|einen Brief an Sam) (schicken|senden|schreiben)", 
       "positive_tokens": [
         "Sie w\u00fcrden Sam einen Brief schicken.", 
         "Du w\u00fcrdest Sam einen Brief schicken.", 
@@ -7800,12 +7684,10 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00030004", 
       "langpair": "ende", 
-      "negative_regex": "", 
-      "negative_tokens": [
-        "Du w\u00fcrdest John den Ball passen."
-      ], 
+      "negative_regex": "passieren", 
+      "negative_tokens": [], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "(Du w\u00fcrdest|Sie w\u00fcrden|Ihr w\u00fcrdet) (Joh?n den Ball|den Ball Joh?n) ((\u00fcber|weiter)?geben|zuspielen)", 
       "positive_tokens": [
         "Sie w\u00fcrden John den Ball \u00fcbergeben.", 
         "Du w\u00fcrdest John den Ball \u00fcbergeben.", 
@@ -7821,7 +7703,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "(Du w\u00fcrdest|Sie w\u00fcrden|Ihr w\u00fcrdet) (Lisa mein Auto|mein Auto Lisa) zeigen", 
       "positive_tokens": [
         "Sie w\u00fcrden Lisa Ihr Auto zeigen.", 
         "Du w\u00fcrdest Lisa dein Auto zeigen."
@@ -7835,7 +7717,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "(Du w\u00fcrdest|Sie w\u00fcrden|Ihr w\u00fcrdet) (Sarah? eine DVD|eine DVD zu Sarah?) bringen\\.", 
       "positive_tokens": [
         "Du w\u00fcrdest Sara eine DVD bringen.", 
         "Du w\u00fcrdest Sara eine DVD mitbringen.", 
@@ -7851,7 +7733,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Er w\u00fcrde (Mar(y|ia) das Buch geben|das Buch Mar(y|ia) geben)", 
       "positive_tokens": [
         "Er w\u00fcrde Mary das Buch geben.", 
         "Er w\u00fcrde Maria das Buch geben."
@@ -7865,7 +7747,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Er w\u00fcrde (Tim einen Kuchen backen|einen Kuchen f\u00fcr Tim backen)", 
       "positive_tokens": [
         "Er w\u00fcrde Tim einen Kuchen backen.", 
         "Er backte Tim einen Kuchen."
@@ -7879,7 +7761,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Sie w\u00fcrde (Sam einen Brief|einen Brief an Sam) (schicken|senden|schreiben)", 
       "positive_tokens": [
         "Sie schickte Sam einen Brief.", 
         "Sie w\u00fcrde Sam einen Brief schicken.", 
@@ -7891,13 +7773,13 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00031004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Sie w\u00fcrde John den Ball passen.", 
         "Sie w\u00fcrde John den Ball passieren."
       ], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Sie w\u00fcrde (Joh?n den Ball|den Ball Joh?n) ((\u00fcber|weiter)?geben|zuspielen)", 
       "positive_tokens": [
         "Sie w\u00fcrde John den Ball \u00fcbergeben.", 
         "Sie w\u00fcrde John den Ball zuspielen.", 
@@ -7915,7 +7797,7 @@
         "Sie zeigte Lisa ihr Auto."
       ], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Sie w\u00fcrde (Lisa mein Auto|mein Auto Lisa) zeigen", 
       "positive_tokens": [
         "Sie w\u00fcrde Lisa ihr Auto zeigen."
       ], 
@@ -7930,7 +7812,7 @@
         "Er brachte Sara eine DVD."
       ], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Er w\u00fcrde (Sarah? eine DVD|eine DVD zu Sarah?) bringen\\.", 
       "positive_tokens": [
         "Er w\u00fcrde Sara eine DVD bringen.", 
         "Er w\u00fcrde Sara eine DVD mitbringen.", 
@@ -7945,7 +7827,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Wir w\u00fcrden (Mar(y|ia) das Buch geben|das Buch Mar(y|ia) geben)", 
       "positive_tokens": [
         "Wir w\u00fcrden Maria das Buch geben.", 
         "Wir w\u00fcrden Mary das Buch geben.", 
@@ -7962,7 +7844,7 @@
         "Wir backten Tim einen Kuchen."
       ], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Wir w\u00fcrden (Tim einen Kuchen backen|einen Kuchen f\u00fcr Tim backen)", 
       "positive_tokens": [
         "Wir w\u00fcrden Tim einen Kuchen backen."
       ], 
@@ -7975,7 +7857,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Wir w\u00fcrden (Sam einen Brief|einen Brief an Sam) (schicken|senden|schreiben)", 
       "positive_tokens": [
         "Wir w\u00fcrden Sam einen Brief schicken.", 
         "Wir w\u00fcrden Sam einen Brief schreiben."
@@ -7986,13 +7868,13 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00032004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Wir w\u00fcrden John den Ball passieren.", 
         "Wir w\u00fcrden John den Ball passen."
       ], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Wir w\u00fcrden (Joh?n den Ball|den Ball Joh?n) ((\u00fcber|weiter)?geben|zuspielen)", 
       "positive_tokens": [
         "Wir w\u00fcrden John den Ball \u00fcbergeben.", 
         "Wir w\u00fcrden John den Ball zuspielen.", 
@@ -8009,7 +7891,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Wir w\u00fcrden (Lisa mein Auto|mein Auto Lisa) zeigen", 
       "positive_tokens": [
         "Wir w\u00fcrden Lisa unser Auto zeigen."
       ], 
@@ -8024,7 +7906,7 @@
         "Wir h\u00e4tten Sara eine DVD gebracht."
       ], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Sie w\u00fcrden (Sarah? eine DVD|eine DVD zu Sarah?) bringen\\.", 
       "positive_tokens": [
         "Wir w\u00fcrden Sara eine DVD bringen.", 
         "Wir w\u00fcrden Sara eine DVD mitbringen."
@@ -8040,7 +7922,7 @@
         "Sie gaben Maria das Buch."
       ], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Sie w\u00fcrden (Mar(y|ia) das Buch geben|das Buch Mar(y|ia) geben)", 
       "positive_tokens": [
         "Sie w\u00fcrden Mary das Buch geben.", 
         "Sie w\u00fcrden Maria das Buch geben."
@@ -8057,7 +7939,7 @@
         "Sie backten Tim einen Kuchen."
       ], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Sie w\u00fcrden (Tim einen Kuchen backen|einen Kuchen f\u00fcr Tim backen)", 
       "positive_tokens": [
         "Sie w\u00fcrden Tim einen Kuchen backen."
       ], 
@@ -8073,7 +7955,7 @@
         "Sie schickten Sam einen Brief."
       ], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Sie w\u00fcrden (Sam einen Brief|einen Brief an Sam) (schicken|senden|schreiben)", 
       "positive_tokens": [
         "Sie w\u00fcrden Sam einen Brief schicken."
       ], 
@@ -8083,13 +7965,13 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00033004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Sie w\u00fcrden John den Ball passen.", 
         "Sie w\u00fcrden John den Ball passieren."
       ], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Sie w\u00fcrden (Joh?n den Ball|den Ball Joh?n) ((\u00fcber|weiter)?geben|zuspielen)", 
       "positive_tokens": [
         "Sie w\u00fcrden John den Ball \u00fcbergeben.", 
         "Sie w\u00fcrden John den Ball zuspielen.", 
@@ -8107,7 +7989,7 @@
         "Sie zeigten Lisa ihr Auto."
       ], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Sie w\u00fcrden (Lisa mein Auto|mein Auto Lisa) zeigen", 
       "positive_tokens": [
         "Sie w\u00fcrden Lisa ihr Auto zeigen."
       ], 
@@ -8120,7 +8002,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - conditional I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Sie w\u00fcrden (Sarah? eine DVD|eine DVD zu Sarah?) bringen\\.", 
       "positive_tokens": [
         "Sie w\u00fcrden Sara eine DVD bringen.", 
         "Sie w\u00fcrden Sara eine DVD mitbringen."
@@ -8155,7 +8037,7 @@
         "Ich h\u00e4tte TiM einen Kuchen gebacken.", 
         "Ich h\u00e4tte Tim einen Kuchen gebacken."
       ], 
-      "source_sentence": "I would have been baking TIm a cake."
+      "source_sentence": "I would have been baking Tim a cake."
     }, 
     {
       "category": "Verb tense/aspect/mood", 
@@ -8172,13 +8054,13 @@
       "positive_tokens": [
         "Ich h\u00e4tte Sam einen Brief geschickt"
       ], 
-      "source_sentence": "I would have been mailing Sam a letter"
+      "source_sentence": "I would have been mailing Sam a letter."
     }, 
     {
       "category": "Verb tense/aspect/mood", 
       "id": "00046004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Ich w\u00fcrde John den Ball gef\u00fchrt haben."
       ], 
@@ -8269,7 +8151,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00047004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - conditional II progressive", 
       "positive_regex": "", 
@@ -8360,7 +8242,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00048004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Er h\u00e4tte John den Ball \u00fcberholt."
       ], 
@@ -8449,7 +8331,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00049004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - conditional II progressive", 
       "positive_regex": "", 
@@ -8538,7 +8420,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00050004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - conditional II progressive", 
       "positive_regex": "", 
@@ -8629,7 +8511,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00064004", 
       "langpair": "ende", 
-      "negative_regex": "\u00fcberholt", 
+      "negative_regex": "\u00fcberholt|passiert", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - conditional II simple", 
       "positive_regex": "", 
@@ -8719,7 +8601,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00065004", 
       "langpair": "ende", 
-      "negative_regex": "\u00fcberholt", 
+      "negative_regex": "\u00fcberholt|passiert", 
       "negative_tokens": [
         "Du h\u00e4ttest John den Ball \u00fcberholt."
       ], 
@@ -8813,7 +8695,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00066004", 
       "langpair": "ende", 
-      "negative_regex": "\u00fcberholt", 
+      "negative_regex": "\u00fcberholt|passiert", 
       "negative_tokens": [
         "Er h\u00e4tte John den Ball \u00fcberholt."
       ], 
@@ -8900,7 +8782,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00067004", 
       "langpair": "ende", 
-      "negative_regex": "\u00fcberholt", 
+      "negative_regex": "\u00fcberholt|passiert", 
       "negative_tokens": [
         "Wir h\u00e4tten John den Ball \u00fcberholt.", 
         "Wir w\u00fcrden John den Ball zugespielt haben."
@@ -8990,7 +8872,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00068004", 
       "langpair": "ende", 
-      "negative_regex": "\u00fcberholt", 
+      "negative_regex": "\u00fcberholt|passiert", 
       "negative_tokens": [
         "Sie werden John den Ball zugespielt haben."
       ], 
@@ -9077,7 +8959,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00074004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - future I progressive", 
       "positive_regex": "", 
@@ -9166,7 +9048,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00075004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Du wirst John den Ball passieren."
       ], 
@@ -9267,7 +9149,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00076004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - future I progressive", 
       "positive_regex": "", 
@@ -9357,7 +9239,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00077004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - future I progressive", 
       "positive_regex": "", 
@@ -9449,7 +9331,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00078004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Sie werden John den Ball passieren."
       ], 
@@ -9535,7 +9417,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00084004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Ich werde John den Ball passieren."
       ], 
@@ -9627,7 +9509,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00085004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Du wirst John den Ball passen.", 
         "Sie werden John den Ball passieren."
@@ -9725,7 +9607,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00086004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - future I simple", 
       "positive_regex": "", 
@@ -9815,7 +9697,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00087004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - future I simple", 
       "positive_regex": "", 
@@ -9909,7 +9791,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00088004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Sie werden John den Ball passieren."
       ], 
@@ -9995,7 +9877,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00089004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Ich werde John den Ball passen."
       ], 
@@ -10087,7 +9969,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00090004", 
       "langpair": "ende", 
-      "negative_regex": "(Sie|Du) (gehen|gehst)", 
+      "negative_regex": "(Sie|Du) (gehen|gehst)|passieren", 
       "negative_tokens": [
         "Du wirst John den Ball f\u00fchren.", 
         "Sie sind dabei, John den Ball \u00fcbergeben."
@@ -10186,7 +10068,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00091004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Sie ist dabei, John den Ball zu \u00fcbergeben."
       ], 
@@ -10275,7 +10157,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00092004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [], 
       "phenomenon": "Ditransitive - future I simple", 
       "positive_regex": "", 
@@ -10364,7 +10246,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00093004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Sie werden John den Ball passieren."
       ], 
@@ -10459,7 +10341,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00121004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Ich w\u00fcrde John den Ball \u00fcbergeben haben.", 
         "Ich w\u00fcrde John den Ball weitergegeben haben.", 
@@ -10568,7 +10450,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00122004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Du w\u00fcrdest John den Ball weitergegeben haben.", 
         "Du w\u00fcrdest John den Ball \u00fcbergeben haben.", 
@@ -10669,7 +10551,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00123004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Er w\u00fcrde John den Ball gef\u00fchrt haben.", 
         "Er wird John den Ball \u00fcberholt haben.", 
@@ -10771,7 +10653,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00124004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Wir w\u00fcrden John den Ball weitergegeben haben.", 
         "Wir werden John den Ball gef\u00fchrt haben.", 
@@ -10874,7 +10756,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00125004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Sie w\u00fcrden John den Ball weitergegeben haben.", 
         "Sie werden John den Ball \u00fcberholt haben.", 
@@ -10970,7 +10852,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00136004", 
       "langpair": "ende", 
-      "negative_regex": "\u00fcberholt", 
+      "negative_regex": "\u00fcberholt|passiert", 
       "negative_tokens": [
         "Ich werde John den Ball gef\u00fchrt haben."
       ], 
@@ -11071,7 +10953,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00137004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passiert", 
       "negative_tokens": [
         "Du wirst John den Ball gef\u00fchrt haben.", 
         "Sie werden John den Ball \u00fcberholt haben."
@@ -11175,7 +11057,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00138004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passiert", 
       "negative_tokens": [
         "Sie wird John den Ball \u00fcberholt haben."
       ], 
@@ -11270,7 +11152,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00139004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passiert", 
       "negative_tokens": [
         "Wir werden John den Ball passiert haben.", 
         "Wir werden John den Ball \u00fcberholt haben.", 
@@ -11369,7 +11251,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00140004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passiert", 
       "negative_tokens": [
         "Sie werden John den Ball \u00fcberholt haben."
       ], 
@@ -11458,7 +11340,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00148004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "zu Joh?n (weiter)?gegeben|passieren", 
       "negative_tokens": [
         "Ich hatte John den Ball gef\u00fchrt.", 
         "Ich hatte John den Ball \u00fcberholt."
@@ -11559,7 +11441,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00149004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "zu Joh?n (weiter)?gegeben|passieren", 
       "negative_tokens": [
         "Du hast John den Ball gereicht.", 
         "Du h\u00e4ttest John den Ball weitergegeben.", 
@@ -11662,7 +11544,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00150004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "zu Joh?n (weiter)?gegeben|passieren", 
       "negative_tokens": [
         "Sie hatte John den Ball gef\u00fchrt.", 
         "Sie hatte John den Ball \u00fcberholt."
@@ -11750,7 +11632,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00151004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "zu Joh?n (weiter)?gegeben|passieren", 
       "negative_tokens": [
         "Wir hatten John den Ball gef\u00fchrt.", 
         "Wir hatten John den Ball \u00fcberholt."
@@ -11844,7 +11726,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00152004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "zu Joh?n (weiter)?gegeben|passieren", 
       "negative_tokens": [
         "Sie hatten John den Ball gef\u00fchrt.", 
         "Sie hatten John den Ball \u00fcberholt."
@@ -11931,7 +11813,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00173004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passiert", 
       "negative_tokens": [
         "Ich hatte John den Ball bestanden.", 
         "Ich hatte John den Ball gef\u00fchrt."
@@ -12030,7 +11912,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00174004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passiert", 
       "negative_tokens": [
         "Du hattest John den Ball bestanden.", 
         "Du hattest John den Ball gef\u00fchrt."
@@ -12128,7 +12010,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00175004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passiert", 
       "negative_tokens": [
         "Er hatte John den Ball \u00fcberholt.", 
         "Er hatte John den Ball gef\u00fchrt."
@@ -12215,7 +12097,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00176004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passiert", 
       "negative_tokens": [
         "Wir hatten John den Ball passiert.", 
         "Wir hatten John den Ball \u00fcberholt.", 
@@ -12303,7 +12185,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00177004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passiert", 
       "negative_tokens": [
         "Sie hatten John den Ball \u00fcberholt.", 
         "Sie hatten John den Ball gef\u00fchrt."
@@ -12495,7 +12377,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00185004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "zu Joh?n (weiter)?gegeben|passiert", 
       "negative_tokens": [
         "Sie passierten John den Ball.", 
         "Du hast John den Ball \u00fcberholt."
@@ -12592,7 +12474,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00186004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "zu Joh?n (weiter)?gegeben|passiert", 
       "negative_tokens": [
         "Sie \u00fcberholte John den Ball.", 
         "Sie passierte John den Ball."
@@ -12688,7 +12570,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00187004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "zu Joh?n (weiter)?gegeben|passiert", 
       "negative_tokens": [
         "Wir waren auf der Durch John den Ball.", 
         "Wir passierten John den Ball.", 
@@ -12787,7 +12669,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00188004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "zu Joh?n (weiter)?gegeben|passiert", 
       "negative_tokens": [
         "Sie passierten John den Ball.", 
         "Sie pa\u00dften John den Ball.", 
@@ -12885,7 +12767,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00194004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "zu Joh?n (weiter)?gegeben|passiert", 
       "negative_tokens": [
         "Ich habe John den Ball gef\u00fchrt.", 
         "Ich habe John den Ball \u00fcberholt."
@@ -12979,7 +12861,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00195004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "zu Joh?n (weiter)?gegeben|passiert", 
       "negative_tokens": [
         "Du hast John den Ball \u00fcberholt."
       ], 
@@ -13075,7 +12957,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00196004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "zu Joh?n (weiter)?gegeben|passiert", 
       "negative_tokens": [
         "Sie hat John den Ball gef\u00fchrt.", 
         "Sie hat John den Ball \u00fcberholt."
@@ -13166,7 +13048,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00197004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "zu Joh?n (weiter)?gegeben|passiert", 
       "negative_tokens": [
         "Wir haben John den Ball gef\u00fchrt.", 
         "Wir haben John den Ball \u00fcberholt."
@@ -13254,7 +13136,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00198004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "zu Joh?n (weiter)?gegeben|passiert", 
       "negative_tokens": [
         "Sie haben John den Ball gef\u00fchrt.", 
         "Sie haben John den Ball \u00fcberholt."
@@ -13340,7 +13222,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00217004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passiert", 
       "negative_tokens": [
         "Ich habe John den Ball bestanden.", 
         "Ich habe John den Ball gef\u00fchrt.", 
@@ -13433,7 +13315,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00218004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passiert", 
       "negative_tokens": [
         "Du hast John den Ball bestanden.", 
         "Du hast John den Ball gef\u00fchrt.", 
@@ -13525,7 +13407,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00219004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passiert", 
       "negative_tokens": [
         "Sie hat John den Ball bestanden.", 
         "Sie hat John den Ball \u00fcberholt."
@@ -13616,7 +13498,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00220004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passiert", 
       "negative_tokens": [
         "Wir haben John den Ball \u00fcberholt.", 
         "Wir haben John den Ball gef\u00fchrt."
@@ -13704,7 +13586,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00221004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passiert", 
       "negative_tokens": [
         "Sie haben John den Ball \u00fcberholt.", 
         "Sie haben John den Ball gef\u00fchrt."
@@ -13795,7 +13677,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00227004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passiere", 
       "negative_tokens": [
         "Ich passe John den Ball.", 
         "Ich \u00fcberhole John den Ball.", 
@@ -13893,7 +13775,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00228004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passier(st|en|t)", 
       "negative_tokens": [
         "Du \u00fcberholst John den Ball.", 
         "Du gehst an John vorbei.", 
@@ -13986,7 +13868,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00229004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passiert", 
       "negative_tokens": [
         "Sie passiert John den Ball.", 
         "Sie ist vorbei John den Ball.", 
@@ -14076,9 +13958,8 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00230004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
-        "Wir passen John den Ball.", 
         "Wir passieren John den Ball."
       ], 
       "phenomenon": "Ditransitive - present progressive", 
@@ -14087,7 +13968,8 @@
         "Wir \u00fcbergeben John den Ball.", 
         "Wir geben John den Ball.", 
         "Wir spielen John den Ball zu.", 
-        "Wir geben John den Ball weiter."
+        "Wir geben John den Ball weiter.", 
+        "Wir passen John den Ball."
       ], 
       "source_sentence": "We are passing John the ball."
     }, 
@@ -14167,7 +14049,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00231004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Sie sind vorbei John den Ball.", 
         "Sie passen John den Ball.", 
@@ -14424,7 +14306,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00238004", 
       "langpair": "ende", 
-      "negative_regex": "bestanden|passierten", 
+      "negative_regex": "bestanden|passiert|passier(test|ten|tet)", 
       "negative_tokens": [
         "Sie passierten John den Ball.", 
         "Sie \u00fcbergeben John den Ball.", 
@@ -14582,7 +14464,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00239004", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passierte", 
       "negative_tokens": [
         "Sie hat John den Ball \u00fcberholt.", 
         "Sie f\u00fchrte John den Ball.", 
@@ -14960,7 +14842,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00249003", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passiere", 
       "negative_tokens": [
         "Ich passe John den Ball.", 
         "Ich passiere John den Ball."
@@ -15052,7 +14934,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00250003", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passier(st|en|t)", 
       "negative_tokens": [
         "Du passierst John den Ball.", 
         "Sie passen John den Ball.", 
@@ -15234,7 +15116,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00252003", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Wir passieren John den Ball.", 
         "Wir passen John den Ball."
@@ -15322,7 +15204,7 @@
       "category": "Verb tense/aspect/mood", 
       "id": "00253003", 
       "langpair": "ende", 
-      "negative_regex": "", 
+      "negative_regex": "passieren", 
       "negative_tokens": [
         "Sie passieren John den Ball."
       ], 
@@ -15631,17 +15513,11 @@
       "id": "00276005", 
       "langpair": "ende", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "Lassen Sie sich nicht verhaftet."
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Imperative", 
       "positive_regex": "", 
-      "positive_tokens": [
-        "Werde nicht verhaftet.", 
-        "Lassen Sie sich nicht verhaften.", 
-        "Lass dich nicht festnehmen."
-      ], 
-      "source_sentence": "Don't get arrested."
+      "positive_tokens": [], 
+      "source_sentence": "Don't break my heart."
     }, 
     {
       "category": "Verb tense/aspect/mood", 
@@ -15896,12 +15772,13 @@
       "id": "00281001", 
       "langpair": "ende", 
       "negative_regex": "", 
-      "negative_tokens": [], 
+      "negative_tokens": [
+        "Er w\u00fcrde kandidieren."
+      ], 
       "phenomenon": "Intransitive - conditional I progressive", 
       "positive_regex": "", 
       "positive_tokens": [
         "Er w\u00fcrde laufen.", 
-        "Er w\u00fcrde kandidieren.", 
         "Er w\u00fcrde rennen."
       ], 
       "source_sentence": "He would be running."
@@ -16487,12 +16364,12 @@
       "negative_tokens": [
         "Ich werde gerannt sein.", 
         "Ich laufe ab.", 
-        "Ich werde gelaufen sein."
+        "Ich werde gelaufen sein.", 
+        "Ich werde kandidieren."
       ], 
       "phenomenon": "Intransitive - future I progressive", 
-      "positive_regex": "", 
+      "positive_regex": "Ich werde ((weg)?laufen|rennen)\\.", 
       "positive_tokens": [
-        "Ich werde kandidieren.", 
         "Ich werde laufen.", 
         "Ich werde rennen."
       ], 
@@ -16505,7 +16382,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I progressive", 
-      "positive_regex": "", 
+      "positive_regex": "Ich werde ankommen\\.", 
       "positive_tokens": [
         "Ich werde ankommen."
       ], 
@@ -16520,7 +16397,7 @@
         "Ich werde gelacht haben."
       ], 
       "phenomenon": "Intransitive - future I progressive", 
-      "positive_regex": "", 
+      "positive_regex": "Ich werde lachen\\.", 
       "positive_tokens": [
         "Ich werde lachen."
       ], 
@@ -16536,7 +16413,7 @@
         "Ich werde geweint haben."
       ], 
       "phenomenon": "Intransitive - future I progressive", 
-      "positive_regex": "", 
+      "positive_regex": "Ich werde weinen\\.", 
       "positive_tokens": [
         "Ich werde weinen."
       ], 
@@ -16553,7 +16430,7 @@
         "Ich werde abgefallen sein."
       ], 
       "phenomenon": "Intransitive - future I progressive", 
-      "positive_regex": "", 
+      "positive_regex": "Ich werde ((hin)?fallen|st\u00fcrzen)\\.", 
       "positive_tokens": [
         "Ich werde fallen.", 
         "Ich werde hinfallen."
@@ -16570,7 +16447,7 @@
         "ich werde gegessen haben."
       ], 
       "phenomenon": "Intransitive - future I progressive", 
-      "positive_regex": "", 
+      "positive_regex": "Ich werde essen\\.", 
       "positive_tokens": [
         "Ich werde essen."
       ], 
@@ -16584,10 +16461,11 @@
       "negative_tokens": [
         "Du wirst gerannt sein.", 
         "Du wirst gelaufen sein.", 
-        "Sie werden gelaufen sein."
+        "Sie werden gelaufen sein.", 
+        "Sie werden kandidieren."
       ], 
       "phenomenon": "Intransitive - future I progressive", 
-      "positive_regex": "", 
+      "positive_regex": "(Sie werden|Du wirst|Ihr werdet) ((weg)?laufen|(weg)?rennen)\\.", 
       "positive_tokens": [
         "Sie werden laufen.", 
         "Du wirst laufen.", 
@@ -16602,7 +16480,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I progressive", 
-      "positive_regex": "", 
+      "positive_regex": "(Sie werden|Du wirst|Ihr werdet) (ankommen)\\.", 
       "positive_tokens": [
         "Sie werden ankommen.", 
         "Du wirst ankommen."
@@ -16618,7 +16496,7 @@
         "Du wirst gelacht haben."
       ], 
       "phenomenon": "Intransitive - future I progressive", 
-      "positive_regex": "", 
+      "positive_regex": "(Sie werden|Du wirst|Ihr werdet) lachen\\.", 
       "positive_tokens": [
         "Sie werden lachen.", 
         "Du wirst lachen."
@@ -16634,7 +16512,7 @@
         "Du wirst geweint haben."
       ], 
       "phenomenon": "Intransitive - future I progressive", 
-      "positive_regex": "", 
+      "positive_regex": "(Sie werden|Du wirst|Ihr werdet) weinen\\.", 
       "positive_tokens": [
         "Du wirst weinen.", 
         "Sie werden weinen."
@@ -16651,7 +16529,7 @@
         "Du wirst gest\u00fcrzt sein."
       ], 
       "phenomenon": "Intransitive - future I progressive", 
-      "positive_regex": "", 
+      "positive_regex": "(Sie werden|Du wirst|Ihr werdet) (fallen|st\u00fcrzen)\\.", 
       "positive_tokens": [
         "Du wirst fallen.", 
         "Sie werden fallen.", 
@@ -16669,7 +16547,7 @@
         "Du wirst gegessen haben."
       ], 
       "phenomenon": "Intransitive - future I progressive", 
-      "positive_regex": "", 
+      "positive_regex": "(Sie werden|Du wirst|Ihr werdet) essen\\.", 
       "positive_tokens": [
         "Ihr werdet essen.", 
         "Sie werden essen.", 
@@ -16683,12 +16561,12 @@
       "langpair": "ende", 
       "negative_regex": "", 
       "negative_tokens": [
-        "Er wird gelaufen sein."
+        "Er wird gelaufen sein.", 
+        "Er wird kandidieren."
       ], 
       "phenomenon": "Intransitive - future I progressive", 
-      "positive_regex": "", 
+      "positive_regex": "Er wird (laufen|rennen)\\.", 
       "positive_tokens": [
-        "Er wird kandidieren.", 
         "Er wird laufen.", 
         "Er wird rennen."
       ], 
@@ -16701,7 +16579,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I progressive", 
-      "positive_regex": "", 
+      "positive_regex": "Sie wird ankommen\\.", 
       "positive_tokens": [
         "Sie wird ankommen.", 
         "Sie wird gleich ankommen."
@@ -16717,7 +16595,7 @@
         "Sie wird zu lachen."
       ], 
       "phenomenon": "Intransitive - future I progressive", 
-      "positive_regex": "", 
+      "positive_regex": "Sie wird lachen\\.", 
       "positive_tokens": [
         "Sie wird lachen."
       ], 
@@ -16732,7 +16610,7 @@
         "Ich werde kandidieren."
       ], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Ich werde ((weg)?laufen|(weg)?rennen)\\.", 
       "positive_tokens": [
         "Ich werde rennen.", 
         "Ich werde laufen."
@@ -16746,7 +16624,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Ich werde ((an)?kommen)\\.", 
       "positive_tokens": [
         "Ich werde ankommen.", 
         "Ich werde kommen."
@@ -16760,7 +16638,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Ich werde lachen\\.", 
       "positive_tokens": [
         "Ich werde lachen."
       ], 
@@ -16773,7 +16651,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Ich werde weinen\\.", 
       "positive_tokens": [
         "Ich werde weinen."
       ], 
@@ -16786,7 +16664,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Ich werde (fallen|st\u00fcrzen)\\.", 
       "positive_tokens": [
         "Ich werde fallen."
       ], 
@@ -16799,7 +16677,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Ich werde essen\\.", 
       "positive_tokens": [
         "Ich werde essen."
       ], 
@@ -16812,7 +16690,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Ich werde schlafen\\.", 
       "positive_tokens": [
         "Ich werde schlafen."
       ], 
@@ -16823,13 +16701,14 @@
       "id": "00314001", 
       "langpair": "ende", 
       "negative_regex": "", 
-      "negative_tokens": [], 
+      "negative_tokens": [
+        "Sie werden fliehen."
+      ], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "(Sie werden|Du wirst|Ihr werdet) ((weg)?laufen|(weg)?rennen)\\.", 
       "positive_tokens": [
         "Sie werden laufen.", 
         "Du wirst rennen.", 
-        "Sie werden fliehen.", 
         "Du wirst laufen."
       ], 
       "source_sentence": "You will run."
@@ -16841,7 +16720,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "(Sie werden|Du wirst|Ihr werdet) ankommen\\.", 
       "positive_tokens": [
         "Du wirst ankommen.", 
         "Sie werden ankommen.", 
@@ -16856,7 +16735,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "(Sie werden|Du wirst|Ihr werdet) lachen\\.", 
       "positive_tokens": [
         "Du wirst lachen.", 
         "Sie werden lachen."
@@ -16870,7 +16749,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "(Sie werden|Du wirst|Ihr werdet) weinen\\.", 
       "positive_tokens": [
         "Du wirst weinen.", 
         "Sie werden weinen."
@@ -16884,7 +16763,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "(Sie werden|Du wirst|Ihr werdet) (fallen|st\u00fcrzen)\\.", 
       "positive_tokens": [
         "Du wirst fallen.", 
         "Sie werden fallen."
@@ -16898,7 +16777,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "(Sie werden|Du wirst|Ihr werdet) essen\\.", 
       "positive_tokens": [
         "Du wirst essen.", 
         "Sie werden essen."
@@ -16912,7 +16791,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "(Sie werden|Du wirst|Ihr werdet) schlafen\\.", 
       "positive_tokens": [
         "Du wirst schlafen.", 
         "Sie werden schlafen."
@@ -16924,9 +16803,11 @@
       "id": "00315001", 
       "langpair": "ende", 
       "negative_regex": "", 
-      "negative_tokens": [], 
+      "negative_tokens": [
+        "Er flieht."
+      ], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Er wird ((weg)?laufen|(weg)?rennen)\\.", 
       "positive_tokens": [
         "Er wird laufen.", 
         "Er wird rennen.", 
@@ -16941,7 +16822,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Er wird ankommen\\.", 
       "positive_tokens": [
         "Er wird ankommen.", 
         "Er wird kommen."
@@ -16957,7 +16838,7 @@
         "Sie werden lachen."
       ], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Sie wird lachen\\.", 
       "positive_tokens": [
         "Sie wird lachen."
       ], 
@@ -16970,7 +16851,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Er wird weinen\\.", 
       "positive_tokens": [
         "Er wird weinen."
       ], 
@@ -16983,7 +16864,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Sie wird (fallen|st\u00fcrzen)\\.", 
       "positive_tokens": [
         "Sie wird fallen."
       ], 
@@ -16998,7 +16879,7 @@
         "Er will essen."
       ], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Er wird essen\\.", 
       "positive_tokens": [
         "Er wird essen."
       ], 
@@ -17011,7 +16892,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Sie wird schlafen\\.", 
       "positive_tokens": [
         "Sie wird schlafen."
       ], 
@@ -17024,7 +16905,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Wir werden ((weg)?laufen|(weg)?rennen)\\.", 
       "positive_tokens": [
         "Wir werden rennen.", 
         "Wir werden laufen."
@@ -17038,7 +16919,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Wir werden ((an)?kommen)\\.", 
       "positive_tokens": [
         "Wir werden ankommen."
       ], 
@@ -17051,7 +16932,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Wir werden lachen\\.", 
       "positive_tokens": [
         "Wir werden lachen."
       ], 
@@ -17064,7 +16945,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Wir werden weinen\\.", 
       "positive_tokens": [
         "Wir werden weinen."
       ], 
@@ -17077,7 +16958,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Wir werden (fallen|st\u00fcrzen)\\.", 
       "positive_tokens": [
         "Wir werden fallen."
       ], 
@@ -17090,7 +16971,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Wir werden essen\\.", 
       "positive_tokens": [
         "Wir werden essen."
       ], 
@@ -17103,7 +16984,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Wir werden schlafen\\.", 
       "positive_tokens": [
         "Wir werden schlafen."
       ], 
@@ -17116,7 +16997,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Sie werden ((weg)?laufen|(weg)?rennen).", 
       "positive_tokens": [
         "Sie werden laufen.", 
         "Sie werden rennen."
@@ -17130,7 +17011,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Sie werden ((an)?kommen)\\.", 
       "positive_tokens": [
         "Sie werden ankommen.", 
         "Sie werden kommen."
@@ -17144,7 +17025,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Sie werden lachen\\.", 
       "positive_tokens": [
         "Sie werden lachen."
       ], 
@@ -17157,7 +17038,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Sie werden weinen\\.", 
       "positive_tokens": [
         "Sie werden weinen."
       ], 
@@ -17170,7 +17051,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Sie werden (fallen|st\u00fcrzen)\\.", 
       "positive_tokens": [
         "Sie werden fallen."
       ], 
@@ -17183,7 +17064,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Sie werden essen\\.", 
       "positive_tokens": [
         "Sie werden essen."
       ], 
@@ -17196,7 +17077,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Intransitive - future I simple", 
-      "positive_regex": "", 
+      "positive_regex": "Sie werden schlafen\\.", 
       "positive_tokens": [
         "Sie werden schlafen."
       ], 
@@ -18409,7 +18290,8 @@
       "langpair": "ende", 
       "negative_regex": "", 
       "negative_tokens": [
-        "Er rannte."
+        "Er rannte.", 
+        "Er kandidierte."
       ], 
       "phenomenon": "Intransitive - past progressive", 
       "positive_regex": "", 
@@ -19322,7 +19204,9 @@
       "id": "00369004", 
       "langpair": "ende", 
       "negative_regex": "", 
-      "negative_tokens": [], 
+      "negative_tokens": [
+        "Sie f\u00e4ngt an zu weinen."
+      ], 
       "phenomenon": "Intransitive - present progressive", 
       "positive_regex": "", 
       "positive_tokens": [
@@ -29082,7 +28966,7 @@
         "Er hat sich selbst Spanisch beigebracht.", 
         "Er lehrte sich selbst Spanisch."
       ], 
-      "source_sentence": "He taught herself Spanish."
+      "source_sentence": "He taught himself Spanish."
     }, 
     {
       "category": "Verb tense/aspect/mood", 
@@ -33858,11 +33742,8 @@
       "negative_tokens": [], 
       "phenomenon": "Middle voice", 
       "positive_regex": "", 
-      "positive_tokens": [
-        "Schmale Reifen man\u00f6vrieren leichter.", 
-        "Schmale Reifen lassen sich leichter man\u00f6vrieren."
-      ], 
-      "source_sentence": "Narrow tires maneuver more easily."
+      "positive_tokens": [], 
+      "source_sentence": "The wine drinks smoothly."
     }, 
     {
       "category": "Verb valency", 
@@ -34205,13 +34086,13 @@
       "langpair": "ende", 
       "negative_regex": "", 
       "negative_tokens": [
-        "Lena schneiden ihr Haar kurz."
+        "Lena schneiden ihr Haar kurz.", 
+        "Lena schnitt ihr die Haare kurz."
       ], 
       "phenomenon": "Resultative", 
       "positive_regex": "(schnitt (ihr Haar|ihre Haare|sich die Haare) kurz|hat (ihr Haar|ihre Haare) kurz geschnitten)", 
       "positive_tokens": [
-        "Lena hat sich die Haare kurz geschnitten.", 
-        "Lena schnitt ihr die Haare kurz."
+        "Lena hat sich die Haare kurz geschnitten."
       ], 
       "source_sentence": "Lena cut her hair short."
     }, 
