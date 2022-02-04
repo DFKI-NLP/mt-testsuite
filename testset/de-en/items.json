@@ -1551,193 +1551,6 @@
       "source_sentence": "Jemand l\u00f6ste den Alarm aus, aber es ist nicht klar, wer."
     }, 
     {
-      "category": "Coordination & ellipsis", 
-      "id": "00652001", 
-      "langpair": "deen", 
-      "negative_regex": ", \\band\\b", 
-      "negative_tokens": [
-        "Maria wants to go to the movies with John and Alice.", 
-        "Maria wants to go with John into the cinema and also Noel.", 
-        "Maria wants to go to the cinema with John and Alice.", 
-        "Maria wants to go to cinema with John and also Alice.", 
-        "Maria wants to go to the cinema with John and Alice also."
-      ], 
-      "phenomenon": "Stripping", 
-      "positive_regex": "Mar(y|ia) wants to go to the (movies|cinema) with Joh?n and (so does Alice|Alice does, too|Alice,? too)", 
-      "positive_tokens": [], 
-      "source_sentence": "Maria will mit John ins Kino gehen und Alice auch."
-    }, 
-    {
-      "category": "Coordination & ellipsis", 
-      "id": "00652002", 
-      "langpair": "deen", 
-      "negative_regex": "", 
-      "negative_tokens": [], 
-      "phenomenon": "Stripping", 
-      "positive_regex": "Lena (wrote|has (written|been writing)) the book,? not Lisa", 
-      "positive_tokens": [
-        "Millie has written the book, not Tess."
-      ], 
-      "source_sentence": "Lena hat das Buch geschrieben, nicht Lisa."
-    }, 
-    {
-      "category": "Coordination & ellipsis", 
-      "id": "00652003", 
-      "langpair": "deen", 
-      "negative_regex": ", \\band\\b", 
-      "negative_tokens": [
-        "Leo speaks German and Viktor well.", 
-        "Leo also speaks German and Viktor.", 
-        "Leo speaks fluent and also Viktor.", 
-        "Leo speaks German and Viktor speaks too.", 
-        "Leo speaks German and Viktor.", 
-        "Leo speaks German and Viktor also."
-      ], 
-      "phenomenon": "Stripping", 
-      "positive_regex": "Leo( is)? speak(s|ing) German and (so does Vi[kc]tor|Vi[ck]tor,? too)", 
-      "positive_tokens": [
-        "Leo speaks German and Viktor also speaks German.", 
-        "Leo speaks German and Viktor as well."
-      ], 
-      "source_sentence": "Leo spricht Deutsch und Viktor auch."
-    }, 
-    {
-      "category": "Coordination & ellipsis", 
-      "id": "00652004", 
-      "langpair": "deen", 
-      "negative_regex": "", 
-      "negative_tokens": [
-        "Leo speaks English and Kai also asserts Lina.", 
-        "Leo speaks English and Kai also claims Lina.", 
-        "Leo speaks fluent and Jarrod also asserted Ella.", 
-        "Leo speaks English, and Kai also claims Lina.", 
-        " Leo speaks English and Kai claims Lina also."
-      ], 
-      "phenomenon": "Stripping", 
-      "positive_regex": "Leo speaks English,? and Kai (says|claims) (so does Lina|Lina does (as well|,? too)|Lina,? too)", 
-      "positive_tokens": [
-        "Leo speaks English and kai claims lina too.", 
-        "Leo speaks English and Kai claims Lina as well."
-      ], 
-      "source_sentence": "Leo spricht Englisch und Kai behauptet Lina auch."
-    }, 
-    {
-      "category": "Coordination & ellipsis", 
-      "id": "00652005", 
-      "langpair": "deen", 
-      "negative_regex": ", \\band\\b", 
-      "negative_tokens": [
-        "Susanne works at night and Bill also.", 
-        "Susanne works at night and Bill also works.", 
-        "He works at night and Bill too.", 
-        " Susanne works at night and Bill does.", 
-        "Susanne works nights and so does Bill.", 
-        "Susanne also works at night and Bill."
-      ], 
-      "phenomenon": "Stripping", 
-      "positive_regex": "Susan(ne)? works at night and (so does Bill|Bill does,? too|Bill,? too)", 
-      "positive_tokens": [
-        "Susanne works at night and bill too."
-      ], 
-      "source_sentence": "Susanne arbeitet nachts und Bill auch."
-    }, 
-    {
-      "category": "Coordination & ellipsis", 
-      "id": "00652006", 
-      "langpair": "deen", 
-      "negative_regex": "", 
-      "negative_tokens": [
-        "Should I do it or should I do it?", 
-        "Should I do it or should you?", 
-        "You want me to do it or you?", 
-        "Are I going to do it or you?", 
-        "Shouldn't I or you?", 
-        "Should i do it or you"
-      ], 
-      "phenomenon": "Stripping", 
-      "positive_regex": "(Shall|Should) I do it or you", 
-      "positive_tokens": [], 
-      "source_sentence": "Soll ich es tun oder du?"
-    }, 
-    {
-      "category": "Coordination & ellipsis", 
-      "id": "00652007", 
-      "langpair": "deen", 
-      "negative_regex": ", \\band\\b|Bill, too", 
-      "negative_tokens": [
-        "Why did Sam call and Bill?", 
-        "Why did Sam called and Bill too?", 
-        "Why did Sam call and Bill call?", 
-        "Why has Sam called and Bill called?", 
-        "Why did Sam call and so did Bill?", 
-        "Why did Sam Call and Bill?", 
-        "Why did Sam and Bill call", 
-        "Why did Sam appeal and Bill?", 
-        "Why has Sam called and Bill also?", 
-        "Why did Sam call and Bill did?", 
-        "Why did Sam call and Bill called?"
-      ], 
-      "phenomenon": "Stripping", 
-      "positive_regex": "Why did Sam call and Bill( did)? too", 
-      "positive_tokens": [
-        "Why did sam call and bill too?"
-      ], 
-      "source_sentence": "Warum hat Sam angerufen und Bill auch?"
-    }, 
-    {
-      "category": "Coordination & ellipsis", 
-      "id": "00652008", 
-      "langpair": "deen", 
-      "negative_regex": ", \\band\\b", 
-      "negative_tokens": [
-        "She asked the children to stay and the adults to stay.", 
-        "She asked children to stay and adults too.", 
-        "She asked the children to stay and so did the adults.", 
-        "She asked the children to stay and also the adults.", 
-        "She asked the kids to stay and so did the adults.", 
-        "She asked children to stay and the adults also.", 
-        "She asked the children to stay and adults too."
-      ], 
-      "phenomenon": "Stripping", 
-      "positive_regex": "She asked the (kids|children) to stay and the (adults|grown-ups)(,? too| as well)", 
-      "positive_tokens": [], 
-      "source_sentence": "Sie bat die Kinder zu bleiben und die Erwachsenen auch."
-    }, 
-    {
-      "category": "Coordination & ellipsis", 
-      "id": "00652009", 
-      "langpair": "deen", 
-      "negative_regex": "has solved", 
-      "negative_tokens": [], 
-      "phenomenon": "Stripping", 
-      "positive_regex": "Sam solved the problem, not Bill", 
-      "positive_tokens": [
-        "Sam solved the problem, not bill.", 
-        "Sam solved the Problem, not Bill.", 
-        "SAM solved the problem, not Bill."
-      ], 
-      "source_sentence": "Sam l\u00f6ste das Problem, nicht Bill."
-    }, 
-    {
-      "category": "Coordination & ellipsis", 
-      "id": "00652010", 
-      "langpair": "deen", 
-      "negative_regex": "", 
-      "negative_tokens": [
-        "Grandma will be coming Sunday not Saturday.", 
-        "Oma will come on Sunday, not Saturday."
-      ], 
-      "phenomenon": "Stripping", 
-      "positive_regex": "Grandma will come on Sunday, not( on)? Saturday", 
-      "positive_tokens": [
-        "Grandma's gonna be here on Sunday, not Saturday.", 
-        "Granny will arrive on Sunday, not on Saturday.", 
-        "Oma will come on Sunday, not on Saturday.", 
-        "Grandma will be coming on Sunday, not Saturday."
-      ], 
-      "source_sentence": "Oma wird am Sonntag kommen, nicht am Samstag."
-    }, 
-    {
       "category": "False friends", 
       "id": "00004001", 
       "langpair": "deen", 
@@ -3270,13 +3083,13 @@
       "positive_tokens": [
         "The underlying process model integrates both personal and technological factors."
       ], 
-      "source_sentence": "Das zu Grunde liegende Vorgehensmodell integriert sowohl personelle wie auch technologische Faktoren."
+      "source_sentence": "Das zu Grunde liegende Vorgehensmodell integriert sowohl personelle als auch technologische Faktoren."
     }, 
     {
       "category": "LDD & interrogatives", 
       "id": "00461002", 
       "langpair": "deen", 
-      "negative_regex": "Majorca", 
+      "negative_regex": "", 
       "negative_tokens": [
         "We either want to fly to Ibiza or Majorca.", 
         "We want to fly to Ibiza or Mallorca."
@@ -3456,43 +3269,22 @@
       "id": "00654003", 
       "langpair": "deen", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "The man Maria is kissing, loves you.", 
-        "The man who is kissed by Maria loves her.", 
-        "The Man Maria is kissed by, loves her.", 
-        "The man Mary is kissed by loves her.", 
-        "The man whom Mary is kissed by loves her.", 
-        "The man by whom Mary is kissed loves her.", 
-        "The man Mary is kissing loves her.", 
-        "The man from whom Mary is cooked loves her.", 
-        "The man Maria is kissed by loves her.", 
-        "The man bought by Maria loves her.", 
-        "The man from whom Maria is cooked loves them.", 
-        "The man who kissed Maria loves her."
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Pied-piping", 
-      "positive_regex": "who (kisses|is kissing) Mar(y|ia) loves her", 
-      "positive_tokens": [
-        "The man who kissed Mary loves her."
-      ], 
-      "source_sentence": "Der Mann, von dem Maria gek\u00fcsst wird, liebt sie."
+      "positive_regex": "place that no one has dared ", 
+      "positive_tokens": [], 
+      "source_sentence": "Das ist ein Ort, den zu betreten noch niemand gewagt hat."
     }, 
     {
       "category": "LDD & interrogatives", 
       "id": "00654004", 
       "langpair": "deen", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "The chair on which Karl sits, is blue.", 
-        "The chair, sitting on the Karl, is blue."
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Pied-piping", 
-      "positive_regex": "chair (that |(on )?which )?(Karl|Charles) (sits|is sitting) (on )?is blue", 
-      "positive_tokens": [
-        "The Chair Karl is sitting on is blue.", 
-        "The chair where Karl sits is blue."
-      ], 
-      "source_sentence": "Der Stuhl, auf dem Karl sitzt, ist blau."
+      "positive_regex": "Whose book", 
+      "positive_tokens": [], 
+      "source_sentence": "Wessen Buch liegt auf dem Tisch?"
     }, 
     {
       "category": "LDD & interrogatives", 
@@ -3578,18 +3370,12 @@
       "category": "LDD & interrogatives", 
       "id": "00654010", 
       "langpair": "deen", 
-      "negative_regex": "the button to (press|push)", 
-      "negative_tokens": [
-        "Yvonne had to press unsuccessfully tried the knob."
-      ], 
+      "negative_regex": "", 
+      "negative_tokens": [], 
       "phenomenon": "Pied-piping", 
-      "positive_regex": "(unsuccessfully tried|tried unsuccessfully) to (press|push)", 
-      "positive_tokens": [
-        "Yvonne tried to press the button without success.", 
-        "Yvonne had tried to press the button unsuccessfully.", 
-        "Yvonne had tried to push the button unsuccessfully."
-      ], 
-      "source_sentence": "Yvonne hatte erfolglos den Knopf zu dr\u00fccken versucht."
+      "positive_regex": "train with which she planned", 
+      "positive_tokens": [], 
+      "source_sentence": "Die Bahn, mit der zu fahren sie plante, versp\u00e4tete sich."
     }, 
     {
       "category": "LDD & interrogatives", 
@@ -4805,18 +4591,12 @@
       "category": "MWE", 
       "id": "00160007", 
       "langpair": "deen", 
-      "negative_regex": "[Nn]othing as questions", 
-      "negative_tokens": [
-        "Nothing as the questions are in the report.", 
-        "Nothing more than questions are in the report.", 
-        "There are no questions in the report."
-      ], 
+      "negative_regex": "", 
+      "negative_tokens": [], 
       "phenomenon": "Idiom", 
-      "positive_regex": "[Mm]ere|([Nn]othing|[Nn]one) but", 
-      "positive_tokens": [
-        "There are only questions in the report."
-      ], 
-      "source_sentence": "Nichts als Fragen stehen in dem Bericht."
+      "positive_regex": "caught.*(in the act|with his pants down|red-handed)", 
+      "positive_tokens": [], 
+      "source_sentence": "Lena ertappte den Einbrecher auf frischer Tat."
     }, 
     {
       "category": "MWE", 
@@ -5027,7 +4807,7 @@
       "phenomenon": "Prepositional MWE", 
       "positive_regex": "([Ww]ith satisfaction|pleased)", 
       "positive_tokens": [], 
-      "source_sentence": "Mit Genugtuung h\u00f6rte Lisa, dass Tim durch die Pr\u00fcfung gefallen war."
+      "source_sentence": "Mit Genugtuung h\u00f6rte Lisa, dass Tim durch die Pr\u00fcfung gefallen war"
     }, 
     {
       "category": "MWE", 
@@ -5074,20 +4854,12 @@
       "category": "MWE", 
       "id": "00463002", 
       "langpair": "deen", 
-      "negative_regex": "(gives?|giving)", 
-      "negative_tokens": [
-        "My neighbor's dinner today.", 
-        "My neighbor's today is a Party."
-      ], 
+      "negative_regex": "", 
+      "negative_tokens": [], 
       "phenomenon": "Verbal MWE", 
-      "positive_regex": "((throws|is throwing)|(has|(is|'s) having)) a party", 
-      "positive_tokens": [
-        "My neighbor's having a Party tonight.", 
-        "My neighbor is partying today.", 
-        "My neighbour is partying today.", 
-        "My Neighbor is having a Party today."
-      ], 
-      "source_sentence": "Mein Nachbar gibt heute eine Party. "
+      "positive_regex": "(ice )skating", 
+      "positive_tokens": [], 
+      "source_sentence": "Morgen gehen wir Schlittschuh laufen. "
     }, 
     {
       "category": "MWE", 
@@ -5450,43 +5222,11 @@
       "id": "00552004", 
       "langpair": "deen", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "Humane popiloma viruses are also common among young people in this country.", 
-        "In this case, Human Immunodeficiency Viruses are often used in young people.", 
-        "In this country, Human pappiloma virus before come in addition in adolescents.", 
-        "In addition, human Pappilom viruses are common in adolescents.", 
-        "In addition, humane pappilomaviruses often occur in young people.", 
-        "Humane pappilomaviruses are also common among young people.", 
-        "In this country, Humane Pappilomaviruses are also common among teenagers.", 
-        "In this country, human pappilomaviruses are also common in adolescents.", 
-        "In addition, human papiloma viruses are common in adolescents in this country.", 
-        "Humane papilomaviruses are also common in adolescents in this country.", 
-        "In this country, in addition, human papilloma viruses are common in adolescents.", 
-        "In this country, human cardboard viruses are also common in young people.", 
-        "In addition, Humane Pappilomaviren are common in young people in this country.", 
-        "In this country, human papilloma viruses are also common among young people.", 
-        "In this country, human pappiloma viruses are also common among adolescents.", 
-        "Human pancreas are also common in these countries.", 
-        "In addition, youths often experience humane cardpappilomaviruses.", 
-        "In Germany, human papilomaviruses are also frequent in adolescents.", 
-        "In this country, human pappiloma viruses are also common in adolescents.", 
-        "Humane pappilomaviruses are also common in adolescents.", 
-        "Human pappilomaviruses are also common in adolescents in this country.", 
-        "In this country, human pappilomaviruses also occur frequently in adolescents.", 
-        "In Germany, human pappilomaviruses are also common among adolescents.", 
-        "In this country, human cardboard kilometre viruses are also common among young people.", 
-        "Human pappilomaviruses are also common in adolescents.", 
-        "Humane Pappilomavirus is also often present in young people.", 
-        "In this country, Humane Pappilomaviruses are also common among young people.", 
-        "Humane Pappilomaviren are also common among young people in this country.", 
-        "In Germany, human pappiloma viruses are also common in adolescents."
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Domainspecific term", 
-      "positive_regex": "human papillomaviruses", 
-      "positive_tokens": [
-        "In this country, human papilomaviruses are also common among adolescents."
-      ], 
-      "source_sentence": "Hierzulande kommen zudem Humane Pappilomaviren bei Jugendlichen h\u00e4ufig vor."
+      "positive_regex": "omicron variant", 
+      "positive_tokens": [], 
+      "source_sentence": "Die Omikron-Variante hat sich mittlerweile in ganz Europa verbreitet. "
     }, 
     {
       "category": "Named entitiy & terminology", 
@@ -5511,7 +5251,7 @@
       "phenomenon": "Domainspecific term", 
       "positive_regex": "declared", 
       "positive_tokens": [], 
-      "source_sentence": "Die Republik Korea (S\u00fcdkorea) wird ausgerufen."
+      "source_sentence": "Die Republik Korea wird ausgerufen."
     }, 
     {
       "category": "Named entitiy & terminology", 
@@ -5564,31 +5304,12 @@
       "category": "Named entitiy & terminology", 
       "id": "00552010", 
       "langpair": "deen", 
-      "negative_regex": "changing zone", 
-      "negative_tokens": [
-        "The Baton can only be handed over in the transition, which is 20 meters long.", 
-        "The staff can only be handed over in the change zone, which is 20 meters long.", 
-        "The rod can only be handed over to the alternating zone, which is 20 metres long.", 
-        "The rod can be passed only in the alternating zone, which is 20 meters long.", 
-        "The rod can only be handed over in the alternating zone, which is 20 meters long.", 
-        "The staff can only be handed over in the interchange zone, which is 20 metres long.", 
-        "The rod can only be passed in the change zone, which is 20 metres long.", 
-        "The rod can only be passed in the alternating zone, which is 20 metres long.", 
-        "The bar can only be passed in the alternating zone which is 20 meters long.", 
-        "The stick can only be handed over in the change zone, which is 20 meters long.", 
-        "The baton can only be handed over in the interchange zone, which is 20 metres long.", 
-        "The rod can only be passed in the alternating zone, which is 20 meters long."
-      ], 
+      "negative_regex": "", 
+      "negative_tokens": [], 
       "phenomenon": "Domainspecific term", 
-      "positive_regex": "(rod|baton).*(exchange|transition) zone", 
-      "positive_tokens": [
-        "The rod can only be handed over in the transition zone, which is 20 meters long.", 
-        "The rod can only be passed in the change zone, which is 20 meters long.", 
-        "The rod can only be handed over in the change zone, which is 20 meters long.", 
-        "The bar can only be handed over in the exchange zone, which is 20 meters long.", 
-        "The baton can only be handed over in the transition area, which is 20 meters long."
-      ], 
-      "source_sentence": "Der Stab kann nur in der Wechselzone \u00fcbergeben werden, die 20 Meter lang ist."
+      "positive_regex": "areas of variants of concern", 
+      "positive_tokens": [], 
+      "source_sentence": "Das Land z\u00e4hlt nun zu den Virusvariantengebieten."
     }, 
     {
       "category": "Named entitiy & terminology", 
@@ -5627,7 +5348,7 @@
       "phenomenon": "Location", 
       "positive_regex": "Galapagos Islands", 
       "positive_tokens": [], 
-      "source_sentence": "Er wollte schon immer mal auf die Galapagos Inseln reisen."
+      "source_sentence": "Er wollte schon immer mal auf die Galapagosinseln reisen."
     }, 
     {
       "category": "Named entitiy & terminology", 
@@ -5810,14 +5531,11 @@
       "id": "00468006", 
       "langpair": "deen", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "Then give two tablespoon of flour to it.", 
-        "Then give two spoons of flour."
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Measuring unit", 
-      "positive_regex": "(two|2) (tablespoons|tbsp.)", 
+      "positive_regex": "cubic met(er|re)s?|meter cubed", 
       "positive_tokens": [], 
-      "source_sentence": "Geben Sie dann zwei Essl\u00f6ffel Mehl dazu."
+      "source_sentence": "Bei der Entr\u00fcmpelung kamen 10 Kubikmeter M\u00fcll zusammen, die wir nun entsorgen m\u00fcssen."
     }, 
     {
       "category": "Named entitiy & terminology", 
@@ -7219,7 +6937,7 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Cleft sentence", 
-      "positive_regex": "It was Peter who|Peter was| the one who", 
+      "positive_regex": "It was Peter who|Peter was the one who", 
       "positive_tokens": [], 
       "source_sentence": "Es war Peter, der die Vase zerbrochen hat."
     }, 
@@ -7230,12 +6948,9 @@
       "negative_regex": "", 
       "negative_tokens": [], 
       "phenomenon": "Cleft sentence", 
-      "positive_regex": "It is.*decisions what|What we need (are|is).*decisions|decisions are what we need", 
-      "positive_tokens": [
-        "We need quick and safe decisions.", 
-        "What we need is quick and safe choices."
-      ], 
-      "source_sentence": "Was wir brauchen, sind rasche und sichere Entscheidungen."
+      "positive_regex": "It was Lisa who|Lisa was the one who", 
+      "positive_tokens": [], 
+      "source_sentence": "Es war Lisa, die zu sp\u00e4t kam."
     }, 
     {
       "category": "Subordination", 
@@ -7911,15 +7626,11 @@
       "id": "00481001", 
       "langpair": "deen", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "I have read that it will ruin tomorrow."
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Object clause", 
-      "positive_regex": "(that )?it( will|('s| is) going to) rain tomorrow", 
-      "positive_tokens": [
-        "I read it's gonna rain tomorrow."
-      ], 
-      "source_sentence": "Ich hab gelesen, dass es morgen regnen wird."
+      "positive_regex": "(that )?the.*guests (want to|are planning to) (leave|go)", 
+      "positive_tokens": [], 
+      "source_sentence": "Der Gastgeber erf\u00e4hrt, dass die ersten G\u00e4ste gehen wollen."
     }, 
     {
       "category": "Subordination", 
@@ -7983,13 +7694,11 @@
       "id": "00481005", 
       "langpair": "deen", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "I insist that you do not use this medicine."
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Object clause", 
-      "positive_regex": "(that )?you( take|('re| are) taking).*(medication|medicine|drug)", 
+      "positive_regex": "(that )?the guests (liked|enjoyed) the party", 
       "positive_tokens": [], 
-      "source_sentence": "Ich bestehe darauf, dass du dieses Medikament nimmst."
+      "source_sentence": "Der Gastgeber vergewissert sich, dass die Party den G\u00e4sten gefallen hat."
     }, 
     {
       "category": "Subordination", 
@@ -8010,16 +7719,11 @@
       "id": "00481007", 
       "langpair": "deen", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "It is annoying that it has missed the train.", 
-        "It is annoyed that it has missed the train."
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Object clause", 
       "positive_regex": "(that )?she (has )?missed the train", 
-      "positive_tokens": [
-        "missing the train."
-      ], 
-      "source_sentence": "Sie \u00e4rgert sich dar\u00fcber, dass sie den Zug verpasst hat."
+      "positive_tokens": [], 
+      "source_sentence": "Sie \u00e4rgert sich, dass sie den Zug verpasst hat."
     }, 
     {
       "category": "Subordination", 
@@ -8048,23 +7752,11 @@
       "id": "00481010", 
       "langpair": "deen", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "She asked me what kind of dress she wanted to wear.", 
-        "She asked me what dress she was going to wear.", 
-        "She asked me what kind of suffering she was going to attract.", 
-        "She asked me what dress she should attract."
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Object clause", 
-      "positive_regex": "(what|which) dress she (was supposed to|should) (wear|put on)", 
-      "positive_tokens": [
-        "She asked me what dress to wear.", 
-        "She asked me which dress to wear.", 
-        "She asked me what dress to put on.", 
-        "She asked me which dress to put on.", 
-        "She asked me what dress she should dress.", 
-        "She asked me which dress she should dress."
-      ], 
-      "source_sentence": "Sie fragte mich, welches Kleid sie anziehen soll. "
+      "positive_regex": "who is coming", 
+      "positive_tokens": [], 
+      "source_sentence": "Ich sehe nicht, wer da kommt."
     }, 
     {
       "category": "Subordination", 
@@ -12241,18 +11933,11 @@
       "id": "00037003", 
       "langpair": "deen", 
       "negative_regex": "", 
-      "negative_tokens": [
-        "Do not change sleep.", 
-        "No sleeping wall."
-      ], 
+      "negative_tokens": [], 
       "phenomenon": "Imperative", 
-      "positive_regex": "Do(n't| not) sleepwalk|No sleepwalking", 
-      "positive_tokens": [
-        "No Sleepwalking.", 
-        "No sleep walking.", 
-        "No sleepwalking."
-      ], 
-      "source_sentence": "Kein Schlafwandeln."
+      "positive_regex": "Get in!", 
+      "positive_tokens": [], 
+      "source_sentence": "Steigen Sie ein!"
     }, 
     {
       "category": "Verb tense/aspect/mood", 
@@ -12279,9 +11964,9 @@
         "Prohibition."
       ], 
       "phenomenon": "Imperative", 
-      "positive_regex": "Do(n't| not) (stop|park)|(Parking|Stopping) prohibited|No (parking|stopping)", 
+      "positive_regex": "Let's go!", 
       "positive_tokens": [], 
-      "source_sentence": "Halten verboten."
+      "source_sentence": "Fahren wir!"
     }, 
     {
       "category": "Verb tense/aspect/mood", 
