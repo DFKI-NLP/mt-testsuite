@@ -33,5 +33,17 @@ The directory `bibtex` contains a list of bibtex (`.bib`) files of prior work th
 When using our data, please cite the following work:
 Vivien Macketanz, Eleftherios Avramidis, Aljoscha Burchardt, He Wang, Renlong Ai, Shushen Manakhimova, Ursula Strohriegel, Sebastian Möller and Hans Uszkoreit (2022). A Linguistically Motivated Test Suite to Semi-Automatically Evaluate German–English Machine Translation Output. In: Proceedings of the 13th Language Resources and Evaluation Conference (LREC). 
 
+@InProceedings{macketanz-EtAl:2022:LREC,
+  author    = {Macketanz, Vivien  and  Avramidis, Eleftherios  and  Burchardt, Aljoscha  and  Wang, He  and  Ai, Renlong  and  Manakhimova, Shushen  and  Strohriegel, Ursula  and  Möller, Sebastian  and  Uszkoreit, Hans},
+  title     = {A Linguistically Motivated Test Suite to Semi-Automatically Evaluate German--English Machine Translation Output},
+  booktitle      = {Proceedings of the Language Resources and Evaluation Conference},
+  month          = {June},
+  year           = {2022},
+  address        = {Marseille, France},
+  publisher      = {European Language Resources Association},
+  pages     = {936--947},
+  url       = {https://aclanthology.org/2022.lrec-1.99}
+}
+
 ## License
 This data is distributed under the CC BY-NC-SA 4.0 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. 
