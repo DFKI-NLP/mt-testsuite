@@ -32,3 +32,6 @@ The directory `bibtex` contains a list of bibtex (`.bib`) files of prior work th
 ## Citation
 When using our data, please cite the following work:
 Vivien Macketanz, Eleftherios Avramidis, Aljoscha Burchardt, He Wang, Renlong Ai, Shushen Manakhimova, Ursula Strohriegel, Sebastian Möller and Hans Uszkoreit (2022). A Linguistically Motivated Test Suite to Semi-Automatically Evaluate German–English Machine Translation Output. In: Proceedings of the 13th Language Resources and Evaluation Conference (LREC). 
+
+## License
+This data is distributed under the CC BY-NC-SA 4.0
