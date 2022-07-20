@@ -29,3 +29,6 @@ The test suite is served as one JSON file (`items.json`) per language direction,
 ## Related work
 The directory `bibtex` contains a list of bibtex (`.bib`) files of prior work that has resulted in the creation of the test suite or applications of it. 
 
+## Citation
+When using our data, please cite the following work:
+Vivien Macketanz, Eleftherios Avramidis, Aljoscha Burchardt, He Wang, Renlong Ai, Shushen Manakhimova, Ursula Strohriegel, Sebastian Möller and Hans Uszkoreit (2022). A Linguistically Motivated Test Suite to Semi-Automatically Evaluate German–English Machine Translation Output. In: Proceedings of the 13th Language Resources and Evaluation Conference (LREC). 
