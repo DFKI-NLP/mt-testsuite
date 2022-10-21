@@ -49,4 +49,4 @@ InProceedings{macketanz-EtAl:2022:LREC,
 
 
 ## License
-This data is distributed under the CC BY-NC-SA 4.0 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. 
+This data is distributed under the CC BY-NC-SA 4.0 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. 
